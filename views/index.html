@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width">
+  <meta name="description" content="AI Chat Bot ">
+  <meta name="author" content="Shreyansh Rai">
+  <title>AI CHAT BOT</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <aside class="history">
+      <h2>Chat History</h2>
+      <div id="chat-history"></div>
+    </aside>
+    <main>
+      <section>
+        <h1>AI Chat Bot</h1>
+        <button class="sound-wave-button">
+          <div class="sound-wave"></div>
+          <div class="sound-wave delay-1"></div>
+          <div class="sound-wave delay-2"></div>
+        </button>
+        <div>
+          <p>You said: <em class="output-you">...</em></p>
+          <p>Bot replied: <em class="output-bot">...</em></p>
+        </div>
+      </section>
+    </main>
+  </div>
+  <script src="../socket.io/socket.io.js"></script>
+  <script src="/js/script.js"></script>
+</body>
+</html>
