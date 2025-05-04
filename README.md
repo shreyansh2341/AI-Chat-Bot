@@ -28,3 +28,6 @@ Service Account Key JSON file for authentication
 Author
 Shreyansh Rai
 GitHub: @shreyansh2341
+
+Installation:
+Clone Repository:-https://github.com/shreyansh2341/AI-Chat-Bot.git
